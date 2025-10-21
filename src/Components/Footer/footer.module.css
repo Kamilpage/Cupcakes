@@ -1,0 +1,70 @@
+.footer__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__inner h1 {
+    padding-top: 70px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+    color: #2E363E;
+
+}
+
+.footer__inner p {
+    margin-bottom: 36px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 143%;
+    color: #2E363E;
+}
+
+.footer__action form {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 24px;
+}
+
+.footer__action_inp {
+    padding: 32px 190px 32px 58px;
+    background-color: #F2F6FA;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    position: relative;
+}
+
+/*.footer__action_inp:after {*/
+    /*content: url("../../assets/images/icons/littlephone.svg");*/
+
+/*}*/
+
+.footer__action form button {
+    border: none;
+    padding: 29px 123px;
+    font-weight: 500;
+    line-height: 152%;
+    color: #2E363E;
+    background-color: #FED84C;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.footer__action form button:hover {
+    opacity: 0.8;
+}
+
+.footer__contracts{
+    display: flex;
+    margin: 0;
+}
+
+.footer__contracts_bottom{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

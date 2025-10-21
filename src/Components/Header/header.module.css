@@ -1,0 +1,66 @@
+.header {
+    height: 82px;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header__block {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header__left h1 {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 140%;
+    margin-top: 20px;
+    color: white;
+}
+
+
+.header__right {
+    display: flex;
+    gap: 69px;
+    margin-top: 20px;
+}
+
+.header__address {
+    display: flex;
+    align-items: flex-start;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: white;
+    gap: 12px;
+}
+
+
+.header__phone {
+    display: flex;
+    align-items: flex-start;
+    gap: 13px;
+}
+
+.header__phone img {
+    margin-top: 5px;
+}
+
+.header__schedule p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 152%;
+    color: white;
+
+}
+
+.header__schedule span {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    color: white;
+
+}

@@ -1,15 +1,15 @@
 import React from 'react';
+import styles from './mobApp.module.css'
 
 const MobApp = () => {
     return (
-        <section>
+        <section className={styles.mobApp}>
             <div className='container'>
-                <div>
-                    <h1>Приготовим заказ любой сложности по фото или эскизу</h1>
-                    <p>Загрузите фотографию или эскиз капкейков и мы рассчитаем стоимость за 30 минут</p>
+                <div className={styles.mobApp__inner}>
+                    <h1>Приготовим заказ <br/> любой сложности <br/> по фото или эскизу</h1>
+                    <p>Загрузите фотографию или эскиз капкейков <br/> и мы рассчитаем стоимость за 30 минут</p>
                     <button>Загрузить фотографию</button>
                 </div>
-
             </div>
 
         </section>

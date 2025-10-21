@@ -1,23 +1,20 @@
 import React from 'react';
 import styles from './conditer.module.css'
-import conditer_img from '../../assets/background-images/conditer.png'
-
+import conditer_img from '../../assets/images/conditer.png'
 const Conditer = () => {
     return (
-        <section>
+        <section className={styles.conditer}>
             <div className='container'>
-                <div>
+                <div className={styles.conditer}>
                     <div className={styles.conditer__left}>
-                        <h2>Лично приготовлю и всё красиво упакую для вашего события</h2>
+                        <h1>Лично приготовлю и всё красиво упакую для вашего события</h1>
                         <ul>
-                            <li>Проконсультирую по выбору капкейков и придумаю нестандартную идею</li>
-                            <li>Приготовлю капкейки для вашего события, которые обязательно всем понравятся</li>
-                            <li>Аккуратно и красиво всё упакую, если вы хотите сделать приятный подарок</li>
+                            <li>Проконсультирую по выбору капкейков <br/> и придумаю нестандартную идею</li>
+                            <li>Приготовлю капкейки для вашего события, <br/> которые обязательно всем понравятся</li>
+                            <li>Аккуратно и красиво всё упакую, если <br/> вы хотите сделать приятный подарок</li>
                         </ul>
                         <button>Задать вопрос Юлии</button>
                     </div>
-
-
                     <div className={styles.conditer__right}>
                         <img src={conditer_img} alt="Юлия Кондратьева"/>
                     </div>

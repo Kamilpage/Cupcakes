@@ -1,0 +1,78 @@
+.conditer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conditer__left {
+    padding-top: 61px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    color: #2E363E;
+    letter-spacing: -1px;
+}
+
+.conditer__left ul {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    gap: 30px;
+}
+
+.conditer__left ul li::marker {
+    color: #5D6AFB;
+}
+
+.conditer__left button {
+    margin-top: 50px;
+    padding: 30px 50px;
+    margin-bottom: 80px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: #FED84C;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 152%;
+    cursor: pointer;
+}
+
+.conditer__right {
+    position: relative;
+}
+
+.conditer__right:after {
+    position: absolute;
+    content: "Юлия Кондратьева ";
+    background-color: #2E363E;
+    padding: 15px 24px;
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: Montserrat, sans-serif;
+    z-index: 2;
+    left: -94px;
+    bottom: 214px;
+
+}
+
+.conditer__right:before {
+    position: absolute;
+    content: "ваш кондитер ";
+    background-color: #F2F6FA;
+    padding: 15px 24px;
+    color: #2E363E;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    z-index: 2;
+    bottom: 162px;
+    left: -60px;
+}
+
+
+

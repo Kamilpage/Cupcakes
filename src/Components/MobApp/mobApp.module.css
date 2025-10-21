@@ -1,0 +1,48 @@
+.mobApp{
+    background-image: url("../../assets/images/mobapp-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+}
+
+
+.mobApp__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 350px ;
+}
+
+.mobApp__action{
+    display: flex;
+    flex-direction: column;
+}
+
+.mobApp__inner h1 {
+    color: #ffff;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.mobApp__inner p {
+    color: #ffff;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 143%;
+}
+
+.mobApp__inner button {
+    border: none;
+    padding: 30px 50px;
+    background-color: #FED84C;
+    color: #2E363E;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 152%;
+    border-radius: 8px;
+}
+
+

@@ -1,0 +1,98 @@
+.reviews {
+    background-color: red;
+    background-image: url("../../assets/images/reviews-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.reviews__inner > h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    color: #ffff;
+    margin-bottom: 80px;
+}
+
+.review__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+    height: 615px;
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 50px;
+}
+
+
+.review__left {
+    padding-top: 64px;
+    padding-left: 143px;
+    position: relative;
+}
+
+.review__left:before {
+    content: url("../../assets/images/icons/quotes.svg");
+    top: 30px;
+    transform: translateY(-100%);
+    position: absolute;
+}
+
+.review__left h1 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 143%;
+    color: #2E363E;
+    width: 460px;
+    margin-bottom: 24px;
+}
+
+.review__left p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 170%;
+    color: #2E363E;
+    width: 430px;
+    margin-bottom: 24px;
+}
+
+.review__left {
+    text-decoration: dotted;
+    color: #4A94FF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.review__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 143px;
+}
+
+.review__right h2 {
+    margin-top: 30px;
+    margin-bottom: 4px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 143%;
+    color: #2E363E;
+}
+
+.review__right h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    color: #A6AEB6;
+}
+
+.review__carusel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
