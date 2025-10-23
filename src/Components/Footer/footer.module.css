@@ -1,17 +1,33 @@
+.footer {
+    background-color: #081130;
+    padding-top: 30px;
+}
+
+
+
+
 .footer__inner {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.footer__block{
+    background-color: #ffff;
+    padding: 70px 150px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .footer__inner h1 {
-    padding-top: 70px;
     margin-bottom: 12px;
     font-weight: 700;
     font-size: 36px;
     line-height: 133%;
     color: #2E363E;
-
 }
 
 .footer__inner p {
@@ -60,11 +76,46 @@
 
 .footer__contracts{
     display: flex;
-    margin: 0;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footer__contracts span{
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+
+.footer__contracts input{
+    margin-top: 10px;
 }
 
 .footer__contracts_bottom{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.footer__info{
+    padding-top: 80px;
+    padding-bottom: 22px;
+    display: flex;
+    gap: 43px;
+}
+
+.footer__info a{
+    text-decoration: none;
+    color: #7E868E;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.footer__bottom a{
+    text-decoration: none;
+    color: #7E868E;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
 }

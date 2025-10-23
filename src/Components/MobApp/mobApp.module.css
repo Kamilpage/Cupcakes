@@ -15,6 +15,26 @@
     padding-top: 350px ;
 }
 
+.mobApp__inner__info{
+    position: relative;
+}
+
+.mobApp__inner__info::before {
+    position: absolute;
+    top: 24px;
+    content: "Не нашли то что нужно?";
+    text-transform: uppercase;
+    color: #2E363E;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+    font-family: Montserrat, sans-serif;
+    padding: 10px 18px;
+    background-color: #F2F6FA;
+    border-radius: 5px;
+    transform: translateY(-100%);
+}
+
 .mobApp__action{
     display: flex;
     flex-direction: column;
@@ -32,6 +52,7 @@
     font-weight: 400;
     font-size: 21px;
     line-height: 143%;
+    margin-bottom: 40px;
 }
 
 .mobApp__inner button {

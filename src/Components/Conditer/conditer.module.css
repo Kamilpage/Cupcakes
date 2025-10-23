@@ -2,10 +2,31 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
 }
 
 .conditer__left {
-    padding-top: 61px;
+    position: relative;
+
+}
+.conditer__left::before {
+    position: absolute;
+    top: 24px;
+    content: "Не нашли то что нужно?";
+    text-transform: uppercase;
+    color: #2E363E;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+    font-family: Montserrat, sans-serif;
+    padding: 10px 18px;
+    background-color: #F2F6FA;
+    border-radius: 5px;
+    transform: translateY(-100%);
+}
+
+
+.conditer__left h1  {
     font-weight: 500;
     font-size: 48px;
     line-height: 60px;
@@ -15,6 +36,7 @@
 
 .conditer__left ul {
     margin-top: 36px;
+    padding-left: 17px;
     display: flex;
     flex-direction: column;
     font-weight: 400;
@@ -23,8 +45,16 @@
     gap: 30px;
 }
 
-.conditer__left ul li::marker {
-    color: #5D6AFB;
+.conditer__left ul li {
+    list-style: none;
+    position: relative;
+}
+
+.conditer__left ul li:before {
+    content: url("../../assets/images/icons/dot.svg");
+    position: absolute;
+    left: -7px;
+    transform: translateX(-100%);
 }
 
 .conditer__left button {
@@ -54,24 +84,25 @@
     font-weight: 500;
     font-size: 24px;
     font-family: Montserrat, sans-serif;
-    z-index: 2;
     left: -94px;
     bottom: 214px;
-
+    transform: skew(-8deg);
+    border-radius: 8px;
 }
 
 .conditer__right:before {
     position: absolute;
-    content: "ваш кондитер ";
+    content: "ВАШ КОНДИТЕР";
     background-color: #F2F6FA;
     padding: 15px 24px;
     color: #2E363E;
     font-weight: 400;
     font-size: 18px;
     font-family: Montserrat, sans-serif;
-    z-index: 2;
-    bottom: 162px;
+    bottom: 163px;
     left: -60px;
+    transform: skew(-8deg);
+    border-radius: 8px;
 }
 
 

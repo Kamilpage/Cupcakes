@@ -1,10 +1,12 @@
 .header {
     height: 82px;
-    background: transparent;
+    background-color: #081130;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+   z-index: 1;
+    overflow: hidden;
 }
 
 .header__block {

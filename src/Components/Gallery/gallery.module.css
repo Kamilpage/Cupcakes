@@ -1,3 +1,10 @@
+
+.gallery__inner{
+    overflow-x: hidden;
+
+}
+
+
 .gallery__inner h1, .gallery__inner p {
     text-align: center;
     color: #2E363E;

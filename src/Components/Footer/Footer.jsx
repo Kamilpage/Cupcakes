@@ -5,6 +5,8 @@ const Footer = () => {
     return (
         <footer className={styles.footer}>
             <div className={styles.footer__inner}>
+                <div className={styles.footer__block}>
+
                 <h1>Чтобы сделать заказ, укажите ваш телефон</h1>
                 <p>Мы перезвоним в течении 15 минут, чтобы уточнить ваши пожелания</p>
                 <div className={styles.footer__action}>
@@ -20,13 +22,14 @@ const Footer = () => {
                 </div>
             </div>
             <div className={styles.footer__contracts_bottom}>
-                <div >
+                <div className={styles.footer__info} >
                     <a href="#">Согласие на обработку данных</a>
                     <a href="#">Служба поддержки</a>
                     <a href="#">Политика конфиденциальности</a>
                 </div>
-                <div>
+                <div className={styles.footer__bottom}>
                     <a href="#">© nazvaniesaita.ru, 2054 | Название компании или ИП ОГРН 0000000000000</a>
+                </div>
                 </div>
             </div>
 
