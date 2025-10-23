@@ -4,6 +4,7 @@ import styles from './mobApp.module.css'
 const MobApp = () => {
     return (
         <section className={styles.mobApp}>
+            <div className={styles.mobile}></div>
             <div className='container'>
                 <div className={styles.mobApp__inner}>
                     <div className={styles.mobApp__inner__info}>

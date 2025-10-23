@@ -1,17 +1,21 @@
 .mobApp{
+    display: flex;
+    background-color: #081130;
+}
+.mobile{
     background-image: url("../../assets/images/mobapp-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    display: flex;
+    width: 100%;
+    height: 1034px;
 }
 
 
 .mobApp__inner{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    padding-left: 84px;
     padding-top: 350px ;
 }
 
@@ -21,7 +25,7 @@
 
 .mobApp__inner__info::before {
     position: absolute;
-    top: 24px;
+    top: -24px;
     content: "Не нашли то что нужно?";
     text-transform: uppercase;
     color: #2E363E;

@@ -18,6 +18,7 @@ const Gallery = () => {
         {image: gallery7}, {image: gallery8}, {image: gallery9}])
     return (
         <section>
+            <div className={styles.clouds}></div>
             <div className={styles.gallery__inner}>
                 <h1>Сделали более 3.000 заказов за 2 года</h1>
                 <p>Посмотрите фото реальных заказов из нашего instagram</p>
@@ -27,6 +28,7 @@ const Gallery = () => {
                     </div>))}
                 </div>
             </div>
+            <div className={styles.gallery__bottom}></div>
         </section>
     );
 };

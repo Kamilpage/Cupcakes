@@ -83,6 +83,7 @@ const Catalog = () => {
                     </div>
                 </div>
             </div>
+            <div className={styles.clouds_bottom}></div>
         </section>
     );
 };

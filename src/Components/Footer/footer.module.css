@@ -1,10 +1,7 @@
 .footer {
     background-color: #081130;
-    padding-top: 30px;
+    padding-top: 12px;
 }
-
-
-
 
 .footer__inner {
     display: flex;
@@ -110,6 +107,10 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 150%;
+}
+
+.footer__bottom{
+    padding-bottom: 80px;
 }
 
 .footer__bottom a{
