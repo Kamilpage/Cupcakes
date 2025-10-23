@@ -64,7 +64,7 @@
 }
 
 
-.hero__lower button {
+.hero__lower a {
     font-weight: 500;
     font-size: 18px;
     line-height: 150%;
@@ -74,10 +74,10 @@
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
-    border: none;
+    text-decoration: none;
 }
 
-.hero__lower button:hover {
+.hero__lower a:hover {
     opacity: 0.8;
 }
 

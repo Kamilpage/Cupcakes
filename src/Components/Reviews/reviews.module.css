@@ -75,6 +75,10 @@
     padding-right: 143px;
 }
 
+.review__right img {
+    border-radius: 50%;
+}
+
 .review__right h2 {
     margin-top: 30px;
     margin-bottom: 4px;
@@ -91,9 +95,21 @@
     color: #A6AEB6;
 }
 
+
 .review__carusel {
+    gap: 1em;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
+    overflow-x: auto;
+
+
+}
+
+.review__item {
+    flex: 0 0 20em;
+    padding: 2em;
+    scroll-snap-align:start ;
+}
+
+.review__carusel::-webkit-scrollbar{
+display: none;
 }

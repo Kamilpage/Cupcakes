@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-.footer__block{
+.footer__block {
     background-color: #ffff;
     padding: 70px 150px;
     border-radius: 8px;
@@ -51,7 +51,7 @@
 }
 
 /*.footer__action_inp:after {*/
-    /*content: url("../../assets/images/icons/littlephone.svg");*/
+/*content: url("../../assets/images/icons/littlephone.svg");*/
 
 /*}*/
 
@@ -71,49 +71,58 @@
     opacity: 0.8;
 }
 
-.footer__contracts{
+.footer__contracts {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
 }
 
-.footer__contracts span{
+.footer__contracts p {
+    margin-left: 10px;
+}
+
+.footer__contracts span {
     text-decoration: underline;
     cursor: pointer;
     color: blue;
 }
 
-.footer__contracts input{
+.footer__contracts input {
     margin-top: 10px;
 }
 
-.footer__contracts_bottom{
+.footer__contracts_bottom {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.footer__info{
+.footer__info {
     padding-top: 80px;
     padding-bottom: 22px;
     display: flex;
     gap: 43px;
 }
 
-.footer__info a{
+.footer__info a {
     text-decoration: none;
     color: #7E868E;
     font-weight: 500;
     font-size: 12px;
     line-height: 150%;
+    transition: all 0.4s ease-in-out;
 }
 
-.footer__bottom{
+.footer__info a:hover {
+    text-decoration: underline;
+}
+
+.footer__bottom {
     padding-bottom: 80px;
 }
 
-.footer__bottom a{
+.footer__bottom a {
     text-decoration: none;
     color: #7E868E;
     font-weight: 500;
